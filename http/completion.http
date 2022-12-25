@@ -1,0 +1,10 @@
+POST http://localhost:5000/api/openai/completion
+content-type: application/json
+
+{
+    "prompt": "who is gojo satoru"
+}
+
+###
+
+GET http://localhost:5000/api/hello
